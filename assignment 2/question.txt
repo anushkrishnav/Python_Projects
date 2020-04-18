@@ -1,0 +1,5 @@
+2. A passenger of FlyHigh Airlines can travel by two types of ticket reservations, Confirmed ticket and Requested ticket. 
+The Airline reservation has various attributes, such as flight number, date, time, and destination. 
+Both types of classes inherit these common attributes. 
+The Confirmed ticket class would however have a seat number while a Requested ticket would have a status attribute. 
+ Implement the system and display the passenger details whose status is confirmed

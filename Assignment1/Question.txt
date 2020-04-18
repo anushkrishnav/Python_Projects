@@ -1,0 +1,9 @@
+1. Design a class Employee with fields Eno, Ename, 
+Basic Salary, DA, HRA, IT, PF, Gross Salary, NetSalary.
+ Accept the details into the fields Eno, Ename, Basic Salary from constructor Find the NetSalary.
+            i. DA is 12% on BS
+            ii. HRA is 20% on BS
+            iii. IT is 15% on BS
+            iv. PF is 12% on BS.
+            v. GS is BS+HRA+DA
+            vi. NS is GS – (IT+PF)
