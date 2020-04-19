@@ -44,6 +44,3 @@ class UserMenu():
             print("---------------------------------------\n")
             print("\tHave Patience\n")
             print("---------------------------------------")
-
-a=UserMenu()
-a.BookingTicket()
