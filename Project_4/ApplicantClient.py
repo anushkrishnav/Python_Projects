@@ -1,4 +1,4 @@
 from Bank import Bank
 
 BankClient=Bank()
-Bank.BankPost()
+BankClient.BankPost()
