@@ -13,6 +13,6 @@ while True:
 
 '''
 import socket 
-s= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s= socket.socket(socket.AF_INET, socket.SOCK_STREAM,socket.IPPORTO_)
 ip = socket.gethostbyname('www.google.com')
 print (ip)

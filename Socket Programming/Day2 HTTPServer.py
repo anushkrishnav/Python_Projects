@@ -4,17 +4,19 @@ import socket
 s=socket.socket()
 print("Server side socket sucessfully created")
 # reserve a port on your computer in our 
-# case it is 12345 but it can be anything 
+
 #ports upto 2000 usually reserved for system purpose
 port=12345
-# Next bind to the port 
+# bind to the port 
 # we have not typed any ip in the ip field 
 # instead we have inputted an empty string 
 # this makes the server listen to requests  
 # coming from other computers on the network 
-s.bind(('127.0.0.1', port))         
+channel="HTTP"
+
+s.bind(('http:\\127.0.0.1', port))
+#USE 127.0.0.1 for local computers         
 print ("socket binded to %s" %(port)) 
-  
 # put the socket into listening mode 
 s.listen(5)      
 print("socket is listening")            
@@ -28,8 +30,8 @@ while True:
    print ('Got connection from', addr )
   
    # send a thank you message to the client.  
-   c.send(b"Thank you for connecting") 
-  
+   c.send(b"\n You connecteed with Anush Server \n\n Thank you for connecting\n") 
+   
    # Close the connection with the client 
    c.close() 
 
