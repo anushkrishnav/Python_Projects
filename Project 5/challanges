@@ -1,9 +1,10 @@
-1 String equ = ”a=65;b=20;c=a+b;print c”;
+2 String equ = ”a=65;b=20;c=a+b;print c”;
     write a function to execute the following command
-2. String s1=”Tom and Jerry are good friends”;
+3. String s1=”Tom and Jerry are good friends”;
         a. Write a program to find the word count (not char count)
         b. Reverse the above string. (don’t reverse the words)
 4. A String variable contains the name of a person. Write the validation code to check :
         a. The string contains only alphabets and
         b. That the name is not less than 8 char
-Swap the 2 no’s without using a third variable. int x=65; int y=32
+5.Swap the 2 no’s without using a third variable. int x=65; int y=32
+6.from a 10 digit numbers find the even numbers and total it .
